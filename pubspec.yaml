@@ -1,0 +1,41 @@
+name: ecogasto
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo_ecogasto.png
+    - assets/video/intro.mp4
+
+
+flutter_launcher_icons:
+  image_path: assets/images/logo_ecogasto.png
+  android: true
+  ios: true
+  macos:
+    generate: true
+    image_path: assets/images/logo_ecogasto.png
+  # Desactiva otras si no las necesitas
+  web:
+    generate: false
+  windows:
+    generate: false
+  linux:
+    generate: false
